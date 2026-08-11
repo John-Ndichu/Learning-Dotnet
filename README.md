@@ -1,4 +1,4 @@
-# 🚀 .NET Learning Repository
+# .NET Learning Repository
 
 A comprehensive collection of .NET projects demonstrating various concepts, patterns, and technologies from basic C# fundamentals to advanced ASP.NET Core Web APIs.
 
@@ -8,7 +8,7 @@ A comprehensive collection of .NET projects demonstrating various concepts, patt
 
 ---
 
-## 📋 Table of Contents
+## Table of Contents
 
 - [Overview](#-overview)
 - [Projects Summary](#-projects-summary)
@@ -21,7 +21,7 @@ A comprehensive collection of .NET projects demonstrating various concepts, patt
 
 ---
 
-## 🎯 Overview
+## Overview
 
 This repository serves as a learning resource for .NET development, covering:
 
@@ -38,7 +38,7 @@ This repository serves as a learning resource for .NET development, covering:
 
 ---
 
-## 📊 Projects Summary
+## Projects Summary
 
 | Project | Framework | Type | Key Focus Areas |
 |---------|-----------|------|-----------------|
@@ -56,7 +56,7 @@ This repository serves as a learning resource for .NET development, covering:
 
 ---
 
-## 📚 Detailed Project Documentation
+## Detailed Project Documentation
 
 ### Console Applications
 
@@ -69,10 +69,10 @@ This repository serves as a learning resource for .NET development, covering:
 **Purpose:** Demonstrates encapsulation and property validation in C#.
 
 **Concepts Demonstrated:**
-- ✅ Encapsulation (private fields, public properties)
-- ✅ Property getters and setters with validation
-- ✅ Defensive programming with input validation
-- ✅ Exception handling for invalid inputs
+-  Encapsulation (private fields, public properties)
+-  Property getters and setters with validation
+-  Defensive programming with input validation
+-  Exception handling for invalid inputs
 
 **Code Highlights:**
 ```csharp
@@ -104,11 +104,11 @@ dotnet run
 **Purpose:** Demonstrates asynchronous programming patterns using async/await with HttpClient.
 
 **Concepts Demonstrated:**
-- ✅ `async`/`await` keywords
-- ✅ HttpClient singleton pattern
-- ✅ Task-based Asynchronous Pattern (TAP)
-- ✅ Exception handling in async code
-- ✅ REST API consumption
+-  `async`/`await` keywords
+-  HttpClient singleton pattern
+-  Task-based Asynchronous Pattern (TAP)
+-  Exception handling in async code
+-  REST API consumption
 
 **Key Technologies:**
 - HttpClient
@@ -135,10 +135,10 @@ dotnet run
 **Purpose:** Demonstrates custom exception handling in C#.
 
 **Concepts Demonstrated:**
-- ✅ Creating custom exception classes
-- ✅ Overriding `Message` and `HelpLink` properties
-- ✅ Exception throwing and catching
-- ✅ Accessing exception properties (StackTrace, Source)
+-  Creating custom exception classes
+-  Overriding `Message` and `HelpLink` properties
+-  Exception throwing and catching
+-  Accessing exception properties (StackTrace, Source)
 
 **Code Highlights:**
 ```csharp
@@ -164,12 +164,12 @@ dotnet run
 **Purpose:** Introduction to LINQ with in-memory collections.
 
 **Concepts Demonstrated:**
-- ✅ LINQ query syntax and method syntax
-- ✅ `Where` - Filtering collections
-- ✅ `OrderBy`/`OrderByDescending` - Sorting
-- ✅ `Any` - Existence checks
-- ✅ `Average`, `Max` - Aggregation functions
-- ✅ `First` - Retrieving single elements
+-  LINQ query syntax and method syntax
+-  `Where` - Filtering collections
+-  `OrderBy`/`OrderByDescending` - Sorting
+-  `Any` - Existence checks
+-  `Average`, `Max` - Aggregation functions
+-  `First` - Retrieving single elements
 
 **Project Structure:**
 ```
@@ -199,13 +199,13 @@ dotnet run
 **Purpose:** Comprehensive tutorial on IQueryable and LINQ operations with Entity Framework Core.
 
 **Concepts Demonstrated:**
-- ✅ `IQueryable` vs `IEnumerable` differences
-- ✅ Deferred execution
-- ✅ LINQ operators: `Where`, `OrderBy`, `ThenBy`, `Skip`, `Take`
-- ✅ Aggregations: `Count`, `Max`, `Min`
-- ✅ `GroupBy` with projections
-- ✅ `Any`, `All` operators
-- ✅ `FirstOrDefault`
+-  `IQueryable` vs `IEnumerable` differences
+-  Deferred execution
+-  LINQ operators: `Where`, `OrderBy`, `ThenBy`, `Skip`, `Take`
+-  Aggregations: `Count`, `Max`, `Min`
+-  `GroupBy` with projections
+-  `Any`, `All` operators
+-  `FirstOrDefault`
 
 **Key Technologies:**
 - Entity Framework Core 10.0.0
@@ -245,12 +245,12 @@ dotnet run
 **Purpose:** Entity Framework Core Code-First workshop demonstrating a blogging platform database design.
 
 **Concepts Demonstrated:**
-- ✅ Code-First migrations
-- ✅ Entity relationships: One-to-One, One-to-Many, Many-to-Many
-- ✅ Fluent API configuration
-- ✅ Navigation properties
-- ✅ GUID primary keys
-- ✅ `Include`/`ThenInclude` for eager loading
+-  Code-First migrations
+-  Entity relationships: One-to-One, One-to-Many, Many-to-Many
+-  Fluent API configuration
+-  Navigation properties
+-  GUID primary keys
+-  `Include`/`ThenInclude` for eager loading
 
 **Key Technologies:**
 - Entity Framework Core 10.0.0
@@ -300,11 +300,11 @@ dotnet run
 **Purpose:** Comprehensive AutoMapper tutorial demonstrating object-to-object mapping.
 
 **Concepts Demonstrated:**
-- ✅ Entity → DTO → ViewModel mapping workflow
-- ✅ Property flattening (FirstName + LastName → FullName)
-- ✅ Value transformation (DateTime → formatted string)
-- ✅ Mapping profiles
-- ✅ AutoMapper 15.0+ license configuration
+-  Entity → DTO → ViewModel mapping workflow
+-  Property flattening (FirstName + LastName → FullName)
+-  Value transformation (DateTime → formatted string)
+-  Mapping profiles
+-  AutoMapper 15.0+ license configuration
 
 **Key Technologies:**
 - AutoMapper 15.1.0
@@ -346,12 +346,12 @@ dotnet run
 **Purpose:** ASP.NET Core Web API for product management with service layer pattern.
 
 **Concepts Demonstrated:**
-- ✅ RESTful API design
-- ✅ Dependency Injection (Scoped lifetime)
-- ✅ DTO pattern for API contracts
-- ✅ Service interface abstraction
-- ✅ OpenAPI/Swagger integration
-- ✅ Docker containerization
+-  RESTful API design
+-  Dependency Injection (Scoped lifetime)
+-  DTO pattern for API contracts
+-  Service interface abstraction
+-  OpenAPI/Swagger integration
+-  Docker containerization
 
 **Key Technologies:**
 - ASP.NET Core (.NET 10.0)
@@ -404,13 +404,13 @@ docker run -p 5000:5000 blogging-api
 **Purpose:** Complete e-commerce order management system with Entity Framework Core.
 
 **Concepts Demonstrated:**
-- ✅ Entity Framework Core (Code-First)
-- ✅ Complex entity relationships (1:1, 1:M)
-- ✅ Lazy loading proxies
-- ✅ Database seeding
-- ✅ Swagger/OpenAPI documentation
-- ✅ Business validation rules
-- ✅ Auditable entities
+-  Entity Framework Core (Code-First)
+-  Complex entity relationships (1:1, 1:M)
+-  Lazy loading proxies
+-  Database seeding
+-  Swagger/OpenAPI documentation
+-  Business validation rules
+-  Auditable entities
 
 **Key Technologies:**
 - Entity Framework Core 10.0.1
@@ -445,11 +445,11 @@ ECommerceApp/
 ```
 
 **Key Features:**
-- 🛒 Order placement with stock validation
-- 📦 Inventory management
-- 🏠 Multi-address support (shipping/billing)
-- 📋 Order status tracking
-- 🕐 Audit fields (CreatedAt, UpdatedAt)
+-  Order placement with stock validation
+-  Inventory management
+-  Multi-address support (shipping/billing)
+-  Order status tracking
+-  Audit fields (CreatedAt, UpdatedAt)
 
 **How to Run:**
 ```bash
@@ -467,12 +467,12 @@ dotnet run
 **Purpose:** Demonstrates distributed caching with Redis in ASP.NET Core.
 
 **Concepts Demonstrated:**
-- ✅ Redis distributed cache integration
-- ✅ Cache-aside pattern
-- ✅ Sliding vs absolute expiration
-- ✅ Cache invalidation strategies
-- ✅ IConnectionMultiplexer for advanced Redis operations
-- ✅ JSON serialization for cache storage
+-  Redis distributed cache integration
+-  Cache-aside pattern
+-  Sliding vs absolute expiration
+-  Cache invalidation strategies
+-  IConnectionMultiplexer for advanced Redis operations
+-  JSON serialization for cache storage
 
 **Key Technologies:**
 - StackExchange.Redis
@@ -530,12 +530,12 @@ dotnet run
 **Purpose:** Demonstrates Dependency Injection lifetimes (Singleton, Scoped, Transient) with a shopping cart system.
 
 **Concepts Demonstrated:**
-- ✅ DI service lifetimes: Singleton, Scoped, Transient
-- ✅ In-memory caching (IMemoryCache)
-- ✅ HttpContextAccessor for request data
-- ✅ Service layer architecture
-- ✅ Swagger documentation
-- ✅ Docker containerization
+-  DI service lifetimes: Singleton, Scoped, Transient
+-  In-memory caching (IMemoryCache)
+-  HttpContextAccessor for request data
+-  Service layer architecture
+-  Swagger documentation
+-  Docker containerization
 
 **Key Technologies:**
 - ASP.NET Core (.NET 10.0)
@@ -572,11 +572,11 @@ ShoppingCartAPI/
 | DiscountService | Transient | New instance every time it's requested |
 
 **Cart Features:**
-- 🛒 Add/Get/Clear cart items
-- 💰 Tier-based discount calculation
-- 📊 Tax calculation (18% GST)
-- 🚚 Dynamic delivery fee based on order amount
-- 👤 User identification via headers
+-  Add/Get/Clear cart items
+-  Tier-based discount calculation
+-  Tax calculation (18% GST)
+-  Dynamic delivery fee based on order amount
+-  User identification via headers
 
 **How to Run:**
 ```bash
@@ -589,7 +589,7 @@ docker run -p 5000:5000 shopping-cart-api
 
 ---
 
-## 🛠 Technologies Used
+##  Technologies Used
 
 ### Frameworks & Runtime
 - .NET 10.0
@@ -612,7 +612,7 @@ docker run -p 5000:5000 shopping-cart-api
 
 ---
 
-## 🚀 Getting Started
+##  Getting Started
 
 ### Prerequisites
 
@@ -658,7 +658,7 @@ https://localhost:<port>/swagger
 
 ---
 
-## 📖 Learning Path
+##  Learning Path
 
 Recommended order for learning:
 
@@ -688,13 +688,13 @@ Recommended order for learning:
 
 ---
 
-## 📝 License
+##  License
 
 This project is licensed under the MIT License - see the LICENSE file for details.
 
 ---
 
-## 🤝 Contributing
+##  Contributing
 
 Contributions are welcome! Please feel free to submit a Pull Request.
 
